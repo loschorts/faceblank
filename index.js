@@ -1,3 +1,5 @@
+// Instructions: Open Newsfeed preferences, run script below in console.
+
 removeElement = element => element.parentNode.removeChild(element);
 
 root = document.querySelector("._2u8i");
@@ -32,3 +34,5 @@ triggerAll = (section) => {
         }
     }
 }
+
+triggerAll(unfollow);
