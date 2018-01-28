@@ -11,7 +11,7 @@ follow = sections[2];
 timeout = 1000; // required to avoid fb spam detector;
 
 triggerAll = (section) => {
-    if (warning = document.querySelector("_42ft _4jy0 layerConfirm uiOverlayButton _4jy3 _4jy1 selected _51sy")) {
+    if (warning = document.querySelector("._42ft, ._4jy0, .layerConfirm, .uiOverlayButton, ._4jy3, ._4jy1, .selected, ._51sy")) {
         console.log("warning");
         warning.click();
         removeElement(warning);
